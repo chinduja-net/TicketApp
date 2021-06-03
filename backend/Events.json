@@ -1,0 +1,67 @@
+{
+  "event": [
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell Härnqvistsalen",
+      "date": "21",
+      "month": "Mar",
+      "timeFrom": "19.00",
+      "timeTo": "21.00",
+      "price": 350,
+      "ticketNo": [
+        "ABC123",
+        "BCA123",
+        "CAB123"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 ",
+      "month": "Mar",
+      "timeFrom": "22.00",
+      "timeTo": "0.00",
+      "price": 110,
+      "ticketNo": [
+        "ACE231",
+        "CEA231",
+        "EAC231"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kajsas Kör",
+      "location": "Götaplatsen",
+      "date": "10",
+      "month": "Apr",
+      "timeFrom": "15.00",
+      "timeTo": "16.00",
+      "price": 99,
+      "ticketNo": [
+        "BSD122",
+        "ACE122",
+        "DSB122"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Klubb-Untzz",
+      "location": "Din favoritkällare",
+      "date": "17",
+      "month": "Apr",
+      "timeFrom": "22.00",
+      "timeTo": "du tröttnar",
+      "price": 150,
+      "ticketNo": [
+        "QDM785",
+        "MDQ785",
+        "DQM785"
+      ]
+    },
+    {
+      "verifiedTkt": "ABC123"
+    }
+  ]
+}

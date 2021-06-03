@@ -1,0 +1,16 @@
+{
+  "account": [
+    {
+      "username": "sara",
+      "password": "$2b$10$QLk8c74oamTedGaoDqvFhedhxW76XxNhmOlyIbPfdF3aqMisHtDxS",
+      "id": "Q5eKZRezPuXe3YiGUqHDy",
+      "role": "staff"
+    },
+    {
+      "username": "Ada",
+      "password": "$2b$10$qs7W5Ed06IlVmTOUQ8WhxO1Ejp4eCB10pE2gvFtxJy051UZp7826q",
+      "id": "fFT5C17ivCoIHdYwOgm2y",
+      "role": "staff"
+    }
+  ]
+}

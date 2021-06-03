@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    }
+
+    #sec1{
+    background-color: rgba(35,31,66,255);
+    max-width: 100%;
+    height: 100vh;
+    }
+
+ .eventlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+ }   
+ 
+ 
+ .sec1{
+    border: 1px solid white;
+    width: 125px;
+    height:125px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ span{
+     display: flex;
+     justify-content:space-between;
+     align-items: flex-end;
+     width: 400px;
+     height: 150px;
+     border-bottom: 1px solid white;
+     
+ }
+ 
+ .event_date,
+ .event_month{
+     color: rgba(244,244,246,255);
+     font-size: 1.5rem;
+     
+ }
+#sec1 h2{
+     padding-top: 15px;
+     color:rgba(245,107,154,255);
+     text-align: center;
+     
+ }
+ .event_name{
+     font-size: 2rem;
+     color: white;
+     text-shadow: 2px 1px rgba(245,107,154,255);
+ }
+ .event_location,
+ .event_time{
+     color: rgba(201,201,203,255);
+     font-size: 1rem;
+ }
+ .event_price{
+    color: rgba(55,174,171,255);
+    font-size: 1.5rem;
+}
+.event_price:after{
+  content :  ' Sek';
+  font-size: 1.5rem;
+}
+
+/**BUYTICKET**/
+#sec2{
+    margin-top: auto;
+    background-color: rgba(35,31,66,255);
+    max-width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#pay_btn{
+    background-color: rgba(55,174,171,255);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 15rem;
+    height:3rem ;
+    font-size: 1.5rem;
+    padding-bottom: auto;
+    font-style: bold;
+}
+
+#word{
+    color: rgb(184, 181, 179);
+    font-size: 2rem;
+    font-style: italic;
+    
+}
+#buyDate{
+    color: rgba(55,174,171,255);
+    font: 1.8rem 'Fira Sans', sans-serif;
+}
+
+#buyName{
+    color:rgba(245,107,154,255);
+    font: italic bold 3rem 'Fira Sans', sans-serif;
+}
+
+#buyLocation{
+    color: rgb(184, 181, 179);
+
+}
+#buyPrice{
+    color: white;
+    text-shadow: 2px 1px rgba(245,107,154,255);
+    font-size: 3rem;
+}
+#buyPrice:after{
+    content :  ' sek';
+    font-size: 3rem;
+    text-shadow: 2px 1px rgba(245,107,154,255)
+  }
+.newTicket{
+    text-align: center;
+
+}
+
+/***DisplayTicket***/
+#sec3{
+    height: 100vh; 
+    max-width: 100%;
+    background-image: linear-gradient(to bottom, rgba(234,102,154,255), rgba(35,31,66,255));
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.showTicket{
+    
+    width: 60%;
+    height: 80vh;
+    border: 1px solid white;
+    background-color:lightgray;
+    margin: 0 auto;
+}
+#ticket_title{
+    color: grey;
+    
+   
+}
+#ticket_time h2,
+#ticket_time_br h2{
+    
+    color: #5e5b5b;
+    
+}
+#ticket_name{
+    border-bottom: 1px dashed grey ;
+    color:rgba(245,107,154,255);
+    padding: 15px 5px;
+        
+}
+
+#ticket_location{
+    height: max-content;
+    color: #5e5b5b;
+    
+   
+}
+
+#ticket_biljett{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #5e5b5b;
+    letter-spacing: 2px;
+}
+img{
+    margin-left: 25rem;
+    margin-top: 4rem;
+}
+#table{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:  1px dashed grey ;
+    border-bottom: 1px dashed grey;
+    height: 100px;
+    margin-top: 5px;
+    
+}
+#ticket_time_br{
+    border-left:1px dashed grey;
+    border-right:1px dashed grey;
+    width: 200px;
+    text-align: center;
+  
+}
+
+#message{
+    font-style: bold;
+    color: #5e5b5b;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+/*----Responsive----*/
+
+@media only screen and (max-width:950px){
+
+    .event_date,
+ .event_month,
+ .event_name,
+ .event_price{
+     font-size: 1rem;
+ }
+.sec1{
+    width: 90px;
+    height: 90px;
+}
+.event_price:after{
+    
+    font-size: 1rem;
+  }
+
+  span{
+      width: 300px;
+      height: 120px;
+  }
+  #word{
+    
+    font-size: 1rem;
+  }
+  #pay_btn{
+      font-size: 1rem;
+      width: 10rem;
+      height: 2rem;
+  }   
+  #buyPrice,
+  #buyPrice:after,
+  #buyDate,
+  #buyName{
+      font-size: 1rem;
+  }
+}
